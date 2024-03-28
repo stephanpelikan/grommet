@@ -15,7 +15,7 @@ jobs:
           always-auth: true
       - id: get-package-id
         run: |
-          VERSIONS=$(curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" -L https://api.github.com/orgs/stephanpelikan/packages/npm/grommet/versions)
+          VERSIONS=$(curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" -L https://api.github.com/users/stephanpelikan/packages/npm/grommet/versions)
           ID=$(echo $VERSIONS | jq --exit-status '.[] | select(.name == "${{ steps.get-version.outputs.version }}") | .id')
           echo "PACKAGE_ID=${ID:-not-found}" >> $GITHUB_ENV
       - uses: actions/delete-package-versions@v4.1.1
