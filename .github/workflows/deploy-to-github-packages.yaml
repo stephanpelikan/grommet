@@ -36,7 +36,8 @@ jobs:
           node-version: '18.x'
           registry-url: 'https://npm.pkg.github.com'
           always-auth: true
+      - run: cat ~/.npmrc
       - run: yarn
-      - run: yarn npm publish // for Yarn version 1, use `yarn publish` instead
+      - run: yarn npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
