@@ -36,7 +36,6 @@ jobs:
           node-version: '18.x'
           registry-url: 'https://npm.pkg.github.com'
           always-auth: true
-      - name: Publish package
       - run: npm ci
       - run: npm publish
         env:
