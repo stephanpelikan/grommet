@@ -38,9 +38,11 @@ jobs:
           always-auth: true
           cache: 'yarn'
       - run: |
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
-          echo "//npm.pkg.github.com/stephanpelikan/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ~/.npmrc
-          echo "registry=https://npm.pkg.github.com/stephanpelikan" >> ~/.npmrc
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ${NPM_CONFIG_USERCONFIG}
+          echo "//npm.pkg.github.com/stephanpelikan/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ${NPM_CONFIG_USERCONFIG}
+          echo "registry=https://npm.pkg.github.com/stephanpelikan" >> ${NPM_CONFIG_USERCONFIG}
+          cat ~/.npmrc
+          echo "${NODE_AUTH_TOKEN}"
       - run: yarn
       - run: yarn publish
         env:
