@@ -37,8 +37,7 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           always-auth: true
       - run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
-      - run: cat ~/.npmrc
       - run: yarn
-      - run: yarn npm publish
+      - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
