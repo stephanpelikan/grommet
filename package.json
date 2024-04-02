@@ -1,5 +1,5 @@
 {
-  "name": "grommet",
+  "name": "@stephanpelikan/grommet",
   "version": "2.33.2-issue-7177-fixed",
   "main": "index.js",
   "module": "es6/index.js",
