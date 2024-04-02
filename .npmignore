@@ -1,0 +1,2 @@
+# add one line to make yarn use .npmignore instead of .gitignore which excludes the dist folder
+.editorconfig
