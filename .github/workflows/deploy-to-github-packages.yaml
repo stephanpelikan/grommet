@@ -41,6 +41,7 @@ jobs:
           echo "//npm.pkg.github.com/stephanpelikan/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ~/.npmrc
           echo "@stephanpelikan:registry=https://npm.pkg.github.com/stephanpelikan" >> ~/.npmrc
       - run: yarn
-      - run: yarn publish
+      - run: ls -l
+      - run: yarn publish es6/ --no-git-tag-version
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
