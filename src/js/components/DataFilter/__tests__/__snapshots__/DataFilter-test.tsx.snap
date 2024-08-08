@@ -2,70 +2,120 @@
 
 exports[`DataFilter !inDataForm 1`] = `
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-right: 12px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  border: solid 2px rgba(0, 0, 0, 0.15);
+  border: solid 2px rgba(0,0,0,0.15);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   border-radius: 4px;
 }
 
 .c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
 }
 
 .c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
@@ -73,43 +123,79 @@ exports[`DataFilter !inDataForm 1`] = `
 }
 
 .c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
   border-radius: 12px;
 }
 
 .c16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
 
 .c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -117,6 +203,8 @@ exports[`DataFilter !inDataForm 1`] = `
   color: #f8f8f8;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 12px;
   width: 12px;
@@ -124,35 +212,59 @@ exports[`DataFilter !inDataForm 1`] = `
 }
 
 .c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
-  background-color: rgba(125, 76, 219, 0.4);
+  background-color: rgba(125,76,219,0.4);
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
   border-radius: 12px;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
   align-items: flex-start;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-column-gap: 12px;
   column-gap: 12px;
   row-gap: 12px;
 }
 
 .c10 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
   height: 12px;
 }
@@ -177,17 +289,30 @@ exports[`DataFilter !inDataForm 1`] = `
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
   -webkit-user-select: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   cursor: pointer;
 }
 
-.c5:hover input:not([disabled])+div,
-.c5:hover input:not([disabled])+span {
+.c5:hover input:not([disabled]) + div,
+.c5:hover input:not([disabled]) + span {
   border-color: #000000;
 }
 
@@ -200,16 +325,21 @@ exports[`DataFilter !inDataForm 1`] = `
   cursor: pointer;
 }
 
-.c8:checked+span>span {
+.c8:checked + span > span {
   left: calc( 48px - 24px );
   background: #7D4CDB;
 }
 
 .c7 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
   flex-shrink: 0;
 }
 
 .c14 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
@@ -223,41 +353,42 @@ exports[`DataFilter !inDataForm 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c6 {
     margin-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c9 {
-    border: solid 2px rgba(0, 0, 0, 0.15);
+    border: solid 2px rgba(0,0,0,0.15);
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c15 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c19 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
+    -webkit-column-gap: 6px;
     column-gap: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c10 {
     height: 6px;
   }
@@ -478,66 +609,108 @@ exports[`DataFilter !inDataForm 1`] = `
 
 exports[`DataFilter children 1`] = `
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 100%;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   overflow: auto;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-bottom: 12px;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+  border-bottom: solid 1px rgba(0,0,0,0.33);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-top: 24px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -555,6 +728,7 @@ exports[`DataFilter children 1`] = `
   box-sizing: border-box;
   cursor: pointer;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   margin: 0;
   background: transparent;
@@ -569,8 +743,11 @@ exports[`DataFilter children 1`] = `
   background-color: #7D4CDB;
   color: #f8f8f8;
   border-radius: 18px;
+  -webkit-transition-property: color,background-color,border-color,box-shadow;
   transition-property: color,background-color,border-color,box-shadow;
+  -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
 
@@ -583,18 +760,18 @@ exports[`DataFilter children 1`] = `
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c11:focus >circle,
-.c11:focus >ellipse,
-.c11:focus >line,
-.c11:focus >path,
-.c11:focus >polygon,
-.c11:focus >polyline,
-.c11:focus >rect {
+.c11:focus > circle,
+.c11:focus > ellipse,
+.c11:focus > line,
+.c11:focus > path,
+.c11:focus > polygon,
+.c11:focus > polyline,
+.c11:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c11:focus ::-moz-focus-inner {
+.c11:focus::-moz-focus-inner {
   border: 0;
 }
 
@@ -603,18 +780,18 @@ exports[`DataFilter children 1`] = `
   box-shadow: none;
 }
 
-.c11:focus:not(:focus-visible) >circle,
-.c11:focus:not(:focus-visible) >ellipse,
-.c11:focus:not(:focus-visible) >line,
-.c11:focus:not(:focus-visible) >path,
-.c11:focus:not(:focus-visible) >polygon,
-.c11:focus:not(:focus-visible) >polyline,
-.c11:focus:not(:focus-visible) >rect {
+.c11:focus:not(:focus-visible) > circle,
+.c11:focus:not(:focus-visible) > ellipse,
+.c11:focus:not(:focus-visible) > line,
+.c11:focus:not(:focus-visible) > path,
+.c11:focus:not(:focus-visible) > polygon,
+.c11:focus:not(:focus-visible) > polyline,
+.c11:focus:not(:focus-visible) > rect {
   outline: none;
   box-shadow: none;
 }
 
-.c11:focus:not(:focus-visible) ::-moz-focus-inner {
+.c11:focus:not(:focus-visible)::-moz-focus-inner {
   border: 0;
 }
 
@@ -634,7 +811,7 @@ exports[`DataFilter children 1`] = `
   padding: 11px;
   font-weight: 600;
   margin: 0;
-  border: 1px solid rgba(0, 0, 0, 0.33);
+  border: 1px solid rgba(0,0,0,0.33);
   border-radius: 4px;
   outline: none;
   border: none;
@@ -652,7 +829,7 @@ exports[`DataFilter children 1`] = `
   color: #AAAAAA;
 }
 
-.c9 ::-webkit-search-decoration {
+.c9::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -681,19 +858,19 @@ exports[`DataFilter children 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     margin-bottom: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c7 {
-    border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+    border-bottom: solid 1px rgba(0,0,0,0.33);
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c10 {
     margin-top: 12px;
   }
@@ -736,6 +913,7 @@ exports[`DataFilter children 1`] = `
                   <input
                     autocomplete="off"
                     class="c9"
+                    value=""
                   />
                 </div>
               </div>
@@ -760,108 +938,181 @@ exports[`DataFilter children 1`] = `
 
 exports[`DataFilter options 1`] = `
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 100%;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   overflow: auto;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-bottom: 12px;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+  border-bottom: solid 1px rgba(0,0,0,0.33);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding: 12px;
 }
 
 .c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-right: 12px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  border: solid 2px rgba(0, 0, 0, 0.15);
+  border: solid 2px rgba(0,0,0,0.15);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   border-radius: 4px;
 }
 
 .c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-top: 24px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c14 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
   height: 12px;
 }
@@ -880,6 +1131,7 @@ exports[`DataFilter options 1`] = `
   box-sizing: border-box;
   cursor: pointer;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   margin: 0;
   background: transparent;
@@ -894,8 +1146,11 @@ exports[`DataFilter options 1`] = `
   background-color: #7D4CDB;
   color: #f8f8f8;
   border-radius: 18px;
+  -webkit-transition-property: color,background-color,border-color,box-shadow;
   transition-property: color,background-color,border-color,box-shadow;
+  -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
 
@@ -908,18 +1163,18 @@ exports[`DataFilter options 1`] = `
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c16:focus >circle,
-.c16:focus >ellipse,
-.c16:focus >line,
-.c16:focus >path,
-.c16:focus >polygon,
-.c16:focus >polyline,
-.c16:focus >rect {
+.c16:focus > circle,
+.c16:focus > ellipse,
+.c16:focus > line,
+.c16:focus > path,
+.c16:focus > polygon,
+.c16:focus > polyline,
+.c16:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c16:focus ::-moz-focus-inner {
+.c16:focus::-moz-focus-inner {
   border: 0;
 }
 
@@ -928,18 +1183,18 @@ exports[`DataFilter options 1`] = `
   box-shadow: none;
 }
 
-.c16:focus:not(:focus-visible) >circle,
-.c16:focus:not(:focus-visible) >ellipse,
-.c16:focus:not(:focus-visible) >line,
-.c16:focus:not(:focus-visible) >path,
-.c16:focus:not(:focus-visible) >polygon,
-.c16:focus:not(:focus-visible) >polyline,
-.c16:focus:not(:focus-visible) >rect {
+.c16:focus:not(:focus-visible) > circle,
+.c16:focus:not(:focus-visible) > ellipse,
+.c16:focus:not(:focus-visible) > line,
+.c16:focus:not(:focus-visible) > path,
+.c16:focus:not(:focus-visible) > polygon,
+.c16:focus:not(:focus-visible) > polyline,
+.c16:focus:not(:focus-visible) > rect {
   outline: none;
   box-shadow: none;
 }
 
-.c16:focus:not(:focus-visible) ::-moz-focus-inner {
+.c16:focus:not(:focus-visible)::-moz-focus-inner {
   border: 0;
 }
 
@@ -948,17 +1203,30 @@ exports[`DataFilter options 1`] = `
 }
 
 .c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
   -webkit-user-select: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   cursor: pointer;
 }
 
-.c9:hover input:not([disabled])+div,
-.c9:hover input:not([disabled])+span {
+.c9:hover input:not([disabled]) + div,
+.c9:hover input:not([disabled]) + span {
   border-color: #000000;
 }
 
@@ -971,12 +1239,14 @@ exports[`DataFilter options 1`] = `
   cursor: pointer;
 }
 
-.c12:checked+span>span {
+.c12:checked + span > span {
   left: calc( 48px - 24px );
   background: #7D4CDB;
 }
 
 .c11 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
   flex-shrink: 0;
 }
 
@@ -990,43 +1260,43 @@ exports[`DataFilter options 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     margin-bottom: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c7 {
-    border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+    border-bottom: solid 1px rgba(0,0,0,0.33);
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c7 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c10 {
     margin-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c13 {
-    border: solid 2px rgba(0, 0, 0, 0.15);
+    border: solid 2px rgba(0,0,0,0.15);
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c15 {
     margin-top: 12px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c14 {
     height: 6px;
   }
@@ -1269,76 +1539,121 @@ exports[`DataFilter options 1`] = `
 
 exports[`DataFilter range Data 1`] = `
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 100%;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   overflow: auto;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-bottom: 12px;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+  border-bottom: solid 1px rgba(0,0,0,0.33);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding: 12px;
 }
 
 .c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
@@ -1346,43 +1661,79 @@ exports[`DataFilter range Data 1`] = `
 }
 
 .c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
   border-radius: 12px;
 }
 
 .c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
 
 .c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1390,6 +1741,8 @@ exports[`DataFilter range Data 1`] = `
   color: #f8f8f8;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 12px;
   width: 12px;
@@ -1397,29 +1750,49 @@ exports[`DataFilter range Data 1`] = `
 }
 
 .c16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
-  background-color: rgba(125, 76, 219, 0.4);
+  background-color: rgba(125,76,219,0.4);
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
   border-radius: 12px;
 }
 
 .c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-top: 24px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -1452,6 +1825,7 @@ exports[`DataFilter range Data 1`] = `
   box-sizing: border-box;
   cursor: pointer;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   margin: 0;
   background: transparent;
@@ -1466,8 +1840,11 @@ exports[`DataFilter range Data 1`] = `
   background-color: #7D4CDB;
   color: #f8f8f8;
   border-radius: 18px;
+  -webkit-transition-property: color,background-color,border-color,box-shadow;
   transition-property: color,background-color,border-color,box-shadow;
+  -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
 
@@ -1480,18 +1857,18 @@ exports[`DataFilter range Data 1`] = `
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c19:focus >circle,
-.c19:focus >ellipse,
-.c19:focus >line,
-.c19:focus >path,
-.c19:focus >polygon,
-.c19:focus >polyline,
-.c19:focus >rect {
+.c19:focus > circle,
+.c19:focus > ellipse,
+.c19:focus > line,
+.c19:focus > path,
+.c19:focus > polygon,
+.c19:focus > polyline,
+.c19:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c19:focus ::-moz-focus-inner {
+.c19:focus::-moz-focus-inner {
   border: 0;
 }
 
@@ -1500,18 +1877,18 @@ exports[`DataFilter range Data 1`] = `
   box-shadow: none;
 }
 
-.c19:focus:not(:focus-visible) >circle,
-.c19:focus:not(:focus-visible) >ellipse,
-.c19:focus:not(:focus-visible) >line,
-.c19:focus:not(:focus-visible) >path,
-.c19:focus:not(:focus-visible) >polygon,
-.c19:focus:not(:focus-visible) >polyline,
-.c19:focus:not(:focus-visible) >rect {
+.c19:focus:not(:focus-visible) > circle,
+.c19:focus:not(:focus-visible) > ellipse,
+.c19:focus:not(:focus-visible) > line,
+.c19:focus:not(:focus-visible) > path,
+.c19:focus:not(:focus-visible) > polygon,
+.c19:focus:not(:focus-visible) > polyline,
+.c19:focus:not(:focus-visible) > rect {
   outline: none;
   box-shadow: none;
 }
 
-.c19:focus:not(:focus-visible) ::-moz-focus-inner {
+.c19:focus:not(:focus-visible)::-moz-focus-inner {
   border: 0;
 }
 
@@ -1520,6 +1897,9 @@ exports[`DataFilter range Data 1`] = `
 }
 
 .c11 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
@@ -1533,37 +1913,37 @@ exports[`DataFilter range Data 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     margin-bottom: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c7 {
-    border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+    border-bottom: solid 1px rgba(0,0,0,0.33);
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c7 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c12 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c16 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c18 {
     margin-top: 12px;
   }
@@ -1694,76 +2074,121 @@ exports[`DataFilter range Data 1`] = `
 
 exports[`DataFilter range prop 1`] = `
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 100%;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   overflow: auto;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-bottom: 12px;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+  border-bottom: solid 1px rgba(0,0,0,0.33);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding: 12px;
 }
 
 .c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
@@ -1771,43 +2196,79 @@ exports[`DataFilter range prop 1`] = `
 }
 
 .c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
   border-radius: 12px;
 }
 
 .c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
 
 .c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1815,6 +2276,8 @@ exports[`DataFilter range prop 1`] = `
   color: #f8f8f8;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 12px;
   width: 12px;
@@ -1822,29 +2285,49 @@ exports[`DataFilter range prop 1`] = `
 }
 
 .c16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
-  background-color: rgba(125, 76, 219, 0.4);
+  background-color: rgba(125,76,219,0.4);
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
   border-radius: 12px;
 }
 
 .c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-top: 24px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -1877,6 +2360,7 @@ exports[`DataFilter range prop 1`] = `
   box-sizing: border-box;
   cursor: pointer;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   margin: 0;
   background: transparent;
@@ -1891,8 +2375,11 @@ exports[`DataFilter range prop 1`] = `
   background-color: #7D4CDB;
   color: #f8f8f8;
   border-radius: 18px;
+  -webkit-transition-property: color,background-color,border-color,box-shadow;
   transition-property: color,background-color,border-color,box-shadow;
+  -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
 
@@ -1905,18 +2392,18 @@ exports[`DataFilter range prop 1`] = `
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c19:focus >circle,
-.c19:focus >ellipse,
-.c19:focus >line,
-.c19:focus >path,
-.c19:focus >polygon,
-.c19:focus >polyline,
-.c19:focus >rect {
+.c19:focus > circle,
+.c19:focus > ellipse,
+.c19:focus > line,
+.c19:focus > path,
+.c19:focus > polygon,
+.c19:focus > polyline,
+.c19:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c19:focus ::-moz-focus-inner {
+.c19:focus::-moz-focus-inner {
   border: 0;
 }
 
@@ -1925,18 +2412,18 @@ exports[`DataFilter range prop 1`] = `
   box-shadow: none;
 }
 
-.c19:focus:not(:focus-visible) >circle,
-.c19:focus:not(:focus-visible) >ellipse,
-.c19:focus:not(:focus-visible) >line,
-.c19:focus:not(:focus-visible) >path,
-.c19:focus:not(:focus-visible) >polygon,
-.c19:focus:not(:focus-visible) >polyline,
-.c19:focus:not(:focus-visible) >rect {
+.c19:focus:not(:focus-visible) > circle,
+.c19:focus:not(:focus-visible) > ellipse,
+.c19:focus:not(:focus-visible) > line,
+.c19:focus:not(:focus-visible) > path,
+.c19:focus:not(:focus-visible) > polygon,
+.c19:focus:not(:focus-visible) > polyline,
+.c19:focus:not(:focus-visible) > rect {
   outline: none;
   box-shadow: none;
 }
 
-.c19:focus:not(:focus-visible) ::-moz-focus-inner {
+.c19:focus:not(:focus-visible)::-moz-focus-inner {
   border: 0;
 }
 
@@ -1945,6 +2432,9 @@ exports[`DataFilter range prop 1`] = `
 }
 
 .c11 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
@@ -1958,37 +2448,37 @@ exports[`DataFilter range prop 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     margin-bottom: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c7 {
-    border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+    border-bottom: solid 1px rgba(0,0,0,0.33);
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c7 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c12 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c16 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c18 {
     margin-top: 12px;
   }
@@ -2119,112 +2609,184 @@ exports[`DataFilter range prop 1`] = `
 
 exports[`DataFilter renders 1`] = `
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 100%;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   overflow: auto;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-bottom: 12px;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+  border-bottom: solid 1px rgba(0,0,0,0.33);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding: 12px;
 }
 
 .c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-right: 12px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  border: solid 2px rgba(0, 0, 0, 0.15);
+  border: solid 2px rgba(0,0,0,0.15);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   border-radius: 4px;
 }
 
 .c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
 }
 
 .c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
@@ -2232,43 +2794,79 @@ exports[`DataFilter renders 1`] = `
 }
 
 .c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
   border-radius: 12px;
 }
 
 .c20 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
 
 .c21 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .c22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2276,6 +2874,8 @@ exports[`DataFilter renders 1`] = `
   color: #f8f8f8;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 12px;
   width: 12px;
@@ -2283,34 +2883,58 @@ exports[`DataFilter renders 1`] = `
 }
 
 .c23 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
-  background-color: rgba(125, 76, 219, 0.4);
+  background-color: rgba(125,76,219,0.4);
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
   border-radius: 12px;
 }
 
 .c25 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-top: 24px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c14 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
   height: 12px;
 }
@@ -2344,6 +2968,7 @@ exports[`DataFilter renders 1`] = `
   box-sizing: border-box;
   cursor: pointer;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   margin: 0;
   background: transparent;
@@ -2358,8 +2983,11 @@ exports[`DataFilter renders 1`] = `
   background-color: #7D4CDB;
   color: #f8f8f8;
   border-radius: 18px;
+  -webkit-transition-property: color,background-color,border-color,box-shadow;
   transition-property: color,background-color,border-color,box-shadow;
+  -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
 
@@ -2372,18 +3000,18 @@ exports[`DataFilter renders 1`] = `
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c26:focus >circle,
-.c26:focus >ellipse,
-.c26:focus >line,
-.c26:focus >path,
-.c26:focus >polygon,
-.c26:focus >polyline,
-.c26:focus >rect {
+.c26:focus > circle,
+.c26:focus > ellipse,
+.c26:focus > line,
+.c26:focus > path,
+.c26:focus > polygon,
+.c26:focus > polyline,
+.c26:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c26:focus ::-moz-focus-inner {
+.c26:focus::-moz-focus-inner {
   border: 0;
 }
 
@@ -2392,18 +3020,18 @@ exports[`DataFilter renders 1`] = `
   box-shadow: none;
 }
 
-.c26:focus:not(:focus-visible) >circle,
-.c26:focus:not(:focus-visible) >ellipse,
-.c26:focus:not(:focus-visible) >line,
-.c26:focus:not(:focus-visible) >path,
-.c26:focus:not(:focus-visible) >polygon,
-.c26:focus:not(:focus-visible) >polyline,
-.c26:focus:not(:focus-visible) >rect {
+.c26:focus:not(:focus-visible) > circle,
+.c26:focus:not(:focus-visible) > ellipse,
+.c26:focus:not(:focus-visible) > line,
+.c26:focus:not(:focus-visible) > path,
+.c26:focus:not(:focus-visible) > polygon,
+.c26:focus:not(:focus-visible) > polyline,
+.c26:focus:not(:focus-visible) > rect {
   outline: none;
   box-shadow: none;
 }
 
-.c26:focus:not(:focus-visible) ::-moz-focus-inner {
+.c26:focus:not(:focus-visible)::-moz-focus-inner {
   border: 0;
 }
 
@@ -2412,17 +3040,30 @@ exports[`DataFilter renders 1`] = `
 }
 
 .c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
   -webkit-user-select: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   cursor: pointer;
 }
 
-.c9:hover input:not([disabled])+div,
-.c9:hover input:not([disabled])+span {
+.c9:hover input:not([disabled]) + div,
+.c9:hover input:not([disabled]) + span {
   border-color: #000000;
 }
 
@@ -2435,16 +3076,21 @@ exports[`DataFilter renders 1`] = `
   cursor: pointer;
 }
 
-.c12:checked+span>span {
+.c12:checked + span > span {
   left: calc( 48px - 24px );
   background: #7D4CDB;
 }
 
 .c11 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
   flex-shrink: 0;
 }
 
 .c18 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
@@ -2458,55 +3104,55 @@ exports[`DataFilter renders 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     margin-bottom: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c7 {
-    border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+    border-bottom: solid 1px rgba(0,0,0,0.33);
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c7 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c10 {
     margin-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c13 {
-    border: solid 2px rgba(0, 0, 0, 0.15);
+    border: solid 2px rgba(0,0,0,0.15);
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c19 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c23 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c25 {
     margin-top: 12px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c14 {
     height: 6px;
   }
@@ -2778,6 +3424,8 @@ exports[`DataFilter select multiple options 1`] = `
 <DocumentFragment>
   .c6 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -2809,48 +3457,82 @@ exports[`DataFilter select multiple options 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
 .c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   background-color: #7D4CDB;
   color: #f8f8f8;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   border-radius: 24px;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-inline-start: 12px;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
@@ -2881,6 +3563,7 @@ exports[`DataFilter select multiple options 1`] = `
   box-sizing: border-box;
   cursor: pointer;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   margin: 0;
   background: transparent;
@@ -2900,18 +3583,18 @@ exports[`DataFilter select multiple options 1`] = `
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c3:focus >circle,
-.c3:focus >ellipse,
-.c3:focus >line,
-.c3:focus >path,
-.c3:focus >polygon,
-.c3:focus >polyline,
-.c3:focus >rect {
+.c3:focus > circle,
+.c3:focus > ellipse,
+.c3:focus > line,
+.c3:focus > path,
+.c3:focus > polygon,
+.c3:focus > polyline,
+.c3:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c3:focus ::-moz-focus-inner {
+.c3:focus::-moz-focus-inner {
   border: 0;
 }
 
@@ -2920,18 +3603,18 @@ exports[`DataFilter select multiple options 1`] = `
   box-shadow: none;
 }
 
-.c3:focus:not(:focus-visible) >circle,
-.c3:focus:not(:focus-visible) >ellipse,
-.c3:focus:not(:focus-visible) >line,
-.c3:focus:not(:focus-visible) >path,
-.c3:focus:not(:focus-visible) >polygon,
-.c3:focus:not(:focus-visible) >polyline,
-.c3:focus:not(:focus-visible) >rect {
+.c3:focus:not(:focus-visible) > circle,
+.c3:focus:not(:focus-visible) > ellipse,
+.c3:focus:not(:focus-visible) > line,
+.c3:focus:not(:focus-visible) > path,
+.c3:focus:not(:focus-visible) > polygon,
+.c3:focus:not(:focus-visible) > polyline,
+.c3:focus:not(:focus-visible) > rect {
   outline: none;
   box-shadow: none;
 }
 
-.c3:focus:not(:focus-visible) ::-moz-focus-inner {
+.c3:focus:not(:focus-visible)::-moz-focus-inner {
   border: 0;
 }
 
@@ -2940,6 +3623,7 @@ exports[`DataFilter select multiple options 1`] = `
   box-sizing: border-box;
   cursor: pointer;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   margin: 0;
   background: transparent;
@@ -2951,8 +3635,11 @@ exports[`DataFilter select multiple options 1`] = `
   padding: 4px 22px;
   font-size: 18px;
   line-height: 24px;
+  -webkit-transition-property: color,background-color,border-color,box-shadow;
   transition-property: color,background-color,border-color,box-shadow;
+  -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
 
@@ -2965,18 +3652,18 @@ exports[`DataFilter select multiple options 1`] = `
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c11:focus >circle,
-.c11:focus >ellipse,
-.c11:focus >line,
-.c11:focus >path,
-.c11:focus >polygon,
-.c11:focus >polyline,
-.c11:focus >rect {
+.c11:focus > circle,
+.c11:focus > ellipse,
+.c11:focus > line,
+.c11:focus > path,
+.c11:focus > polygon,
+.c11:focus > polyline,
+.c11:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c11:focus ::-moz-focus-inner {
+.c11:focus::-moz-focus-inner {
   border: 0;
 }
 
@@ -2985,18 +3672,18 @@ exports[`DataFilter select multiple options 1`] = `
   box-shadow: none;
 }
 
-.c11:focus:not(:focus-visible) >circle,
-.c11:focus:not(:focus-visible) >ellipse,
-.c11:focus:not(:focus-visible) >line,
-.c11:focus:not(:focus-visible) >path,
-.c11:focus:not(:focus-visible) >polygon,
-.c11:focus:not(:focus-visible) >polyline,
-.c11:focus:not(:focus-visible) >rect {
+.c11:focus:not(:focus-visible) > circle,
+.c11:focus:not(:focus-visible) > ellipse,
+.c11:focus:not(:focus-visible) > line,
+.c11:focus:not(:focus-visible) > path,
+.c11:focus:not(:focus-visible) > polygon,
+.c11:focus:not(:focus-visible) > polyline,
+.c11:focus:not(:focus-visible) > rect {
   outline: none;
   box-shadow: none;
 }
 
-.c11:focus:not(:focus-visible) ::-moz-focus-inner {
+.c11:focus:not(:focus-visible)::-moz-focus-inner {
   border: 0;
 }
 
@@ -3010,91 +3697,91 @@ exports[`DataFilter select multiple options 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c8 {
     border-radius: 12px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c10 {
     margin-inline-start: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
@@ -3182,6 +3869,8 @@ exports[`DataFilter select multiple options search 1`] = `
 <DocumentFragment>
   .c4 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -3213,22 +3902,36 @@ exports[`DataFilter select multiple options search 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
@@ -3237,6 +3940,7 @@ exports[`DataFilter select multiple options search 1`] = `
   box-sizing: border-box;
   cursor: pointer;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   margin: 0;
   background: transparent;
@@ -3256,18 +3960,18 @@ exports[`DataFilter select multiple options search 1`] = `
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c3:focus >circle,
-.c3:focus >ellipse,
-.c3:focus >line,
-.c3:focus >path,
-.c3:focus >polygon,
-.c3:focus >polyline,
-.c3:focus >rect {
+.c3:focus > circle,
+.c3:focus > ellipse,
+.c3:focus > line,
+.c3:focus > path,
+.c3:focus > polygon,
+.c3:focus > polyline,
+.c3:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c3:focus ::-moz-focus-inner {
+.c3:focus::-moz-focus-inner {
   border: 0;
 }
 
@@ -3276,18 +3980,18 @@ exports[`DataFilter select multiple options search 1`] = `
   box-shadow: none;
 }
 
-.c3:focus:not(:focus-visible) >circle,
-.c3:focus:not(:focus-visible) >ellipse,
-.c3:focus:not(:focus-visible) >line,
-.c3:focus:not(:focus-visible) >path,
-.c3:focus:not(:focus-visible) >polygon,
-.c3:focus:not(:focus-visible) >polyline,
-.c3:focus:not(:focus-visible) >rect {
+.c3:focus:not(:focus-visible) > circle,
+.c3:focus:not(:focus-visible) > ellipse,
+.c3:focus:not(:focus-visible) > line,
+.c3:focus:not(:focus-visible) > path,
+.c3:focus:not(:focus-visible) > polygon,
+.c3:focus:not(:focus-visible) > polyline,
+.c3:focus:not(:focus-visible) > rect {
   outline: none;
   box-shadow: none;
 }
 
-.c3:focus:not(:focus-visible) ::-moz-focus-inner {
+.c3:focus:not(:focus-visible)::-moz-focus-inner {
   border: 0;
 }
 
@@ -3340,6 +4044,8 @@ exports[`DataFilter should allow filtering on multiple sub-properties from same 
 <DocumentFragment>
   .c6 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -3371,48 +4077,82 @@ exports[`DataFilter should allow filtering on multiple sub-properties from same 
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
 .c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   background-color: #7D4CDB;
   color: #f8f8f8;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   border-radius: 24px;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-inline-start: 12px;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
@@ -3443,6 +4183,7 @@ exports[`DataFilter should allow filtering on multiple sub-properties from same 
   box-sizing: border-box;
   cursor: pointer;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   margin: 0;
   background: transparent;
@@ -3462,18 +4203,18 @@ exports[`DataFilter should allow filtering on multiple sub-properties from same 
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c3:focus >circle,
-.c3:focus >ellipse,
-.c3:focus >line,
-.c3:focus >path,
-.c3:focus >polygon,
-.c3:focus >polyline,
-.c3:focus >rect {
+.c3:focus > circle,
+.c3:focus > ellipse,
+.c3:focus > line,
+.c3:focus > path,
+.c3:focus > polygon,
+.c3:focus > polyline,
+.c3:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c3:focus ::-moz-focus-inner {
+.c3:focus::-moz-focus-inner {
   border: 0;
 }
 
@@ -3482,18 +4223,18 @@ exports[`DataFilter should allow filtering on multiple sub-properties from same 
   box-shadow: none;
 }
 
-.c3:focus:not(:focus-visible) >circle,
-.c3:focus:not(:focus-visible) >ellipse,
-.c3:focus:not(:focus-visible) >line,
-.c3:focus:not(:focus-visible) >path,
-.c3:focus:not(:focus-visible) >polygon,
-.c3:focus:not(:focus-visible) >polyline,
-.c3:focus:not(:focus-visible) >rect {
+.c3:focus:not(:focus-visible) > circle,
+.c3:focus:not(:focus-visible) > ellipse,
+.c3:focus:not(:focus-visible) > line,
+.c3:focus:not(:focus-visible) > path,
+.c3:focus:not(:focus-visible) > polygon,
+.c3:focus:not(:focus-visible) > polyline,
+.c3:focus:not(:focus-visible) > rect {
   outline: none;
   box-shadow: none;
 }
 
-.c3:focus:not(:focus-visible) ::-moz-focus-inner {
+.c3:focus:not(:focus-visible)::-moz-focus-inner {
   border: 0;
 }
 
@@ -3502,6 +4243,7 @@ exports[`DataFilter should allow filtering on multiple sub-properties from same 
   box-sizing: border-box;
   cursor: pointer;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   margin: 0;
   background: transparent;
@@ -3513,8 +4255,11 @@ exports[`DataFilter should allow filtering on multiple sub-properties from same 
   padding: 4px 22px;
   font-size: 18px;
   line-height: 24px;
+  -webkit-transition-property: color,background-color,border-color,box-shadow;
   transition-property: color,background-color,border-color,box-shadow;
+  -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
 
@@ -3527,18 +4272,18 @@ exports[`DataFilter should allow filtering on multiple sub-properties from same 
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c11:focus >circle,
-.c11:focus >ellipse,
-.c11:focus >line,
-.c11:focus >path,
-.c11:focus >polygon,
-.c11:focus >polyline,
-.c11:focus >rect {
+.c11:focus > circle,
+.c11:focus > ellipse,
+.c11:focus > line,
+.c11:focus > path,
+.c11:focus > polygon,
+.c11:focus > polyline,
+.c11:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c11:focus ::-moz-focus-inner {
+.c11:focus::-moz-focus-inner {
   border: 0;
 }
 
@@ -3547,18 +4292,18 @@ exports[`DataFilter should allow filtering on multiple sub-properties from same 
   box-shadow: none;
 }
 
-.c11:focus:not(:focus-visible) >circle,
-.c11:focus:not(:focus-visible) >ellipse,
-.c11:focus:not(:focus-visible) >line,
-.c11:focus:not(:focus-visible) >path,
-.c11:focus:not(:focus-visible) >polygon,
-.c11:focus:not(:focus-visible) >polyline,
-.c11:focus:not(:focus-visible) >rect {
+.c11:focus:not(:focus-visible) > circle,
+.c11:focus:not(:focus-visible) > ellipse,
+.c11:focus:not(:focus-visible) > line,
+.c11:focus:not(:focus-visible) > path,
+.c11:focus:not(:focus-visible) > polygon,
+.c11:focus:not(:focus-visible) > polyline,
+.c11:focus:not(:focus-visible) > rect {
   outline: none;
   box-shadow: none;
 }
 
-.c11:focus:not(:focus-visible) ::-moz-focus-inner {
+.c11:focus:not(:focus-visible)::-moz-focus-inner {
   border: 0;
 }
 
@@ -3572,83 +4317,83 @@ exports[`DataFilter should allow filtering on multiple sub-properties from same 
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c8 {
     border-radius: 12px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c10 {
     margin-inline-start: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 

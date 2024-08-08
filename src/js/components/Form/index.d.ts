@@ -30,4 +30,23 @@ declare const Form: <T = {}>(
   p: TypedFormProps<T>,
 ) => React.ReactElement<TypedFormProps<T>>;
 
-export { Form };
+export type UseFormInputProps = { value: any; initialValue: any; name: string };
+type ValueSetter = (value: any) => void;
+type useFormInputFunction = (
+  value: UseFormInputProps,
+) => [value: any, setter: ValueSetter];
+
+export type UseFormFieldProps = {
+  error?: string | React.ReactNode;
+  info?: string | React.ReactNode;
+  disabled: boolean;
+};
+type useFormFieldFunction = (value: UseFormFieldProps) => UseFormFieldProps;
+
+type FormContextProps = {
+  useFormField: useFormFieldFunction;
+  useFormInput: useFormInputFunction;
+};
+declare const FormContext: React.Context<FormContextProps>;
+
+export { Form, FormContext };

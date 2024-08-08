@@ -12,51 +12,92 @@ exports[`DataChart areas 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 48px;
   padding-bottom: 48px;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -94,19 +135,19 @@ exports[`DataChart areas 1`] = `
   right: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -220,49 +261,90 @@ exports[`DataChart axis 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -292,13 +374,13 @@ exports[`DataChart axis 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
@@ -691,57 +773,100 @@ exports[`DataChart axis x granularity 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 48px;
+  -ms-flex-preferred-size: 48px;
   flex-basis: 48px;
   overflow: visible;
 }
 
 .c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 24px;
+  -ms-flex-preferred-size: 24px;
   flex-basis: 24px;
   overflow: visible;
 }
 
 .c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -770,13 +895,13 @@ exports[`DataChart axis x granularity 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
@@ -2188,51 +2313,92 @@ exports[`DataChart bars 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 48px;
   padding-bottom: 48px;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -2270,19 +2436,19 @@ exports[`DataChart bars 1`] = `
   right: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -2417,51 +2583,92 @@ exports[`DataChart bars colors 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 48px;
   padding-bottom: 48px;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -2499,19 +2706,19 @@ exports[`DataChart bars colors 1`] = `
   right: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -2646,27 +2853,45 @@ exports[`DataChart bars empty 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 48px;
   padding-bottom: 48px;
@@ -2686,19 +2911,19 @@ exports[`DataChart bars empty 1`] = `
   grid-area: charts;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -2736,51 +2961,92 @@ exports[`DataChart bars invalid 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 48px;
   padding-bottom: 48px;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -2818,19 +3084,19 @@ exports[`DataChart bars invalid 1`] = `
   right: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -2968,49 +3234,90 @@ exports[`DataChart bounds align 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -3040,13 +3347,13 @@ exports[`DataChart bounds align 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
@@ -3143,49 +3450,90 @@ exports[`DataChart bounds explicit 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -3215,13 +3563,13 @@ exports[`DataChart bounds explicit 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
@@ -3318,86 +3666,148 @@ exports[`DataChart dates 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
 
 .c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-left: 48px;
   padding-right: 48px;
 }
 
 .c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  border-left: solid 1px rgba(0, 0, 0, 0.33);
+  border-left: solid 1px rgba(0,0,0,0.33);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
   height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-left: 48px;
   padding-right: 48px;
@@ -3406,12 +3816,17 @@ exports[`DataChart dates 1`] = `
 }
 
 .c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  border-top: solid 1px rgba(0, 0, 0, 0.33);
+  border-top: solid 1px rgba(0,0,0,0.33);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -3448,27 +3863,27 @@ exports[`DataChart dates 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c9 {
-    border-left: solid 1px rgba(0, 0, 0, 0.33);
+    border-left: solid 1px rgba(0,0,0,0.33);
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c11 {
-    border-top: solid 1px rgba(0, 0, 0, 0.33);
+    border-top: solid 1px rgba(0,0,0,0.33);
   }
 }
 
@@ -4192,49 +4607,90 @@ exports[`DataChart default 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -4264,13 +4720,13 @@ exports[`DataChart default 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
@@ -4357,49 +4813,90 @@ exports[`DataChart default 1`] = `
 
 exports[`DataChart default without grommet wrapper 1`] = `
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -4429,13 +4926,13 @@ exports[`DataChart default without grommet wrapper 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding-inline-end: 0px;
   }
@@ -4528,83 +5025,145 @@ exports[`DataChart detail 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0px;
 }
 
 .c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 96px;
 }
 
 .c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 100%;
 }
@@ -4647,18 +5206,18 @@ exports[`DataChart detail 1`] = `
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c11:focus >circle,
-.c11:focus >ellipse,
-.c11:focus >line,
-.c11:focus >path,
-.c11:focus >polygon,
-.c11:focus >polyline,
-.c11:focus >rect {
+.c11:focus > circle,
+.c11:focus > ellipse,
+.c11:focus > line,
+.c11:focus > path,
+.c11:focus > polygon,
+.c11:focus > polyline,
+.c11:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c11:focus ::-moz-focus-inner {
+.c11:focus::-moz-focus-inner {
   border: 0;
 }
 
@@ -4667,28 +5226,28 @@ exports[`DataChart detail 1`] = `
   box-shadow: none;
 }
 
-.c11:focus:not(:focus-visible) >circle,
-.c11:focus:not(:focus-visible) >ellipse,
-.c11:focus:not(:focus-visible) >line,
-.c11:focus:not(:focus-visible) >path,
-.c11:focus:not(:focus-visible) >polygon,
-.c11:focus:not(:focus-visible) >polyline,
-.c11:focus:not(:focus-visible) >rect {
+.c11:focus:not(:focus-visible) > circle,
+.c11:focus:not(:focus-visible) > ellipse,
+.c11:focus:not(:focus-visible) > line,
+.c11:focus:not(:focus-visible) > path,
+.c11:focus:not(:focus-visible) > polygon,
+.c11:focus:not(:focus-visible) > polyline,
+.c11:focus:not(:focus-visible) > rect {
   outline: none;
   box-shadow: none;
 }
 
-.c11:focus:not(:focus-visible) ::-moz-focus-inner {
+.c11:focus:not(:focus-visible)::-moz-focus-inner {
   border: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
@@ -4881,142 +5440,243 @@ exports[`DataChart detail pad + thickness 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0px;
 }
 
 .c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 96px;
 }
 
 .c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 100%;
 }
 
 .c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: -48px;
   padding-inline-end: -48px;
 }
 
 .c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
 .c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-left: -36px;
   padding-right: -36px;
@@ -5025,27 +5685,43 @@ exports[`DataChart detail pad + thickness 1`] = `
 }
 
 .c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: -36px;
   padding-inline-end: -36px;
 }
 
 .c20 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-left: -36px;
   padding-right: -36px;
@@ -5054,14 +5730,22 @@ exports[`DataChart detail pad + thickness 1`] = `
 }
 
 .c21 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-left: -48px;
   padding-right: -48px;
@@ -5070,38 +5754,64 @@ exports[`DataChart detail pad + thickness 1`] = `
 }
 
 .c22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 72px;
   padding-inline-end: 72px;
 }
 
 .c23 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 48px;
+  -ms-flex-preferred-size: 48px;
   flex-basis: 48px;
   overflow: visible;
 }
 
 .c24 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-left: 72px;
   padding-right: 72px;
@@ -5110,12 +5820,20 @@ exports[`DataChart detail pad + thickness 1`] = `
 }
 
 .c25 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 48px;
 }
@@ -5158,18 +5876,18 @@ exports[`DataChart detail pad + thickness 1`] = `
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c11:focus >circle,
-.c11:focus >ellipse,
-.c11:focus >line,
-.c11:focus >path,
-.c11:focus >polygon,
-.c11:focus >polyline,
-.c11:focus >rect {
+.c11:focus > circle,
+.c11:focus > ellipse,
+.c11:focus > line,
+.c11:focus > path,
+.c11:focus > polygon,
+.c11:focus > polyline,
+.c11:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c11:focus ::-moz-focus-inner {
+.c11:focus::-moz-focus-inner {
   border: 0;
 }
 
@@ -5178,71 +5896,71 @@ exports[`DataChart detail pad + thickness 1`] = `
   box-shadow: none;
 }
 
-.c11:focus:not(:focus-visible) >circle,
-.c11:focus:not(:focus-visible) >ellipse,
-.c11:focus:not(:focus-visible) >line,
-.c11:focus:not(:focus-visible) >path,
-.c11:focus:not(:focus-visible) >polygon,
-.c11:focus:not(:focus-visible) >polyline,
-.c11:focus:not(:focus-visible) >rect {
+.c11:focus:not(:focus-visible) > circle,
+.c11:focus:not(:focus-visible) > ellipse,
+.c11:focus:not(:focus-visible) > line,
+.c11:focus:not(:focus-visible) > path,
+.c11:focus:not(:focus-visible) > polygon,
+.c11:focus:not(:focus-visible) > polyline,
+.c11:focus:not(:focus-visible) > rect {
   outline: none;
   box-shadow: none;
 }
 
-.c11:focus:not(:focus-visible) ::-moz-focus-inner {
+.c11:focus:not(:focus-visible)::-moz-focus-inner {
   border: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c14 {
     padding-inline-start: -48px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c14 {
     padding-inline-end: -48px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c16 {
     padding-top: 6px;
     padding-bottom: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c19 {
     padding-inline-start: -36px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c19 {
     padding-inline-end: -36px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c22 {
     padding-inline-start: 72px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c22 {
     padding-inline-end: 72px;
   }
@@ -5746,49 +6464,90 @@ exports[`DataChart gap 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -5836,13 +6595,13 @@ exports[`DataChart gap 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
@@ -6085,86 +6844,148 @@ exports[`DataChart guide 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
 
 .c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-left: 48px;
   padding-right: 48px;
 }
 
 .c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  border-left: solid 1px rgba(0, 0, 0, 0.33);
+  border-left: solid 1px rgba(0,0,0,0.33);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
   height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-left: 48px;
   padding-right: 48px;
@@ -6173,12 +6994,17 @@ exports[`DataChart guide 1`] = `
 }
 
 .c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  border-top: solid 1px rgba(0, 0, 0, 0.33);
+  border-top: solid 1px rgba(0,0,0,0.33);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -6215,27 +7041,27 @@ exports[`DataChart guide 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c9 {
-    border-left: solid 1px rgba(0, 0, 0, 0.33);
+    border-left: solid 1px rgba(0,0,0,0.33);
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c11 {
-    border-top: solid 1px rgba(0, 0, 0, 0.33);
+    border-top: solid 1px rgba(0,0,0,0.33);
   }
 }
 
@@ -6614,98 +7440,165 @@ exports[`DataChart horizontal 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-left: 48px;
   padding-right: 48px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
 
 .c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
   height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 48px;
 }
 
 .c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  border-left: solid 1px rgba(0, 0, 0, 0.33);
+  border-left: solid 1px rgba(0,0,0,0.33);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
   height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 48px;
 }
 
 .c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  border-top: solid 1px rgba(0, 0, 0, 0.33);
+  border-top: solid 1px rgba(0,0,0,0.33);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -6742,34 +7635,34 @@ exports[`DataChart horizontal 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-left: 24px;
     padding-right: 24px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-bottom: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c9 {
-    border-left: solid 1px rgba(0, 0, 0, 0.33);
+    border-left: solid 1px rgba(0,0,0,0.33);
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c11 {
-    border-top: solid 1px rgba(0, 0, 0, 0.33);
+    border-top: solid 1px rgba(0,0,0,0.33);
   }
 }
 
@@ -6911,81 +7804,145 @@ exports[`DataChart legend 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
   align-items: flex-start;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-top: 12px;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   padding-left: 12px;
   padding-right: 12px;
@@ -6994,7 +7951,11 @@ exports[`DataChart legend 1`] = `
 }
 
 .c12 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
   width: 6px;
 }
@@ -7029,39 +7990,39 @@ exports[`DataChart legend 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding-inline-end: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c10 {
     margin-top: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c11 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c11 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c12 {
     width: 3px;
   }
@@ -7263,51 +8224,92 @@ exports[`DataChart lines 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 48px;
   padding-bottom: 48px;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -7345,19 +8347,19 @@ exports[`DataChart lines 1`] = `
   right: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -7474,49 +8476,90 @@ exports[`DataChart negative values 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -7546,13 +8589,13 @@ exports[`DataChart negative values 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
@@ -7900,49 +8943,90 @@ exports[`DataChart nothing 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -7972,13 +9056,13 @@ exports[`DataChart nothing 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding-inline-end: 0px;
   }
@@ -8110,49 +9194,90 @@ exports[`DataChart offset 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 48px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -8182,13 +9307,13 @@ exports[`DataChart offset 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 48px;
   }
@@ -8287,49 +9412,90 @@ exports[`DataChart offset gap 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 48px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -8359,13 +9525,13 @@ exports[`DataChart offset gap 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 48px;
   }
@@ -8464,74 +9630,125 @@ exports[`DataChart pad 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: -48px;
   padding-inline-end: -48px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 48px;
   padding-bottom: 48px;
@@ -8562,33 +9779,33 @@ exports[`DataChart pad 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: -48px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: -48px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 6px;
     padding-bottom: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c9 {
     padding-top: 12px;
     padding-bottom: 12px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c10 {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -8832,65 +10049,117 @@ exports[`DataChart placeholder node 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   background-color: #EDEDED;
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
   height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -8932,13 +10201,13 @@ exports[`DataChart placeholder node 1`] = `
   right: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
@@ -9031,66 +10300,118 @@ exports[`DataChart placeholder text 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   margin-left: 48px;
   margin-right: 48px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255,255,255,0.8);
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -9133,19 +10454,19 @@ exports[`DataChart placeholder text 1`] = `
   right: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c10 {
     margin-left: 24px;
     margin-right: 24px;
@@ -9239,49 +10560,90 @@ exports[`DataChart single 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -9311,13 +10673,13 @@ exports[`DataChart single 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
@@ -9401,49 +10763,90 @@ exports[`DataChart size 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
@@ -9490,7 +10893,13 @@ exports[`DataChart size 1`] = `
   width: 100%;
   max-width: none;
   height: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
   flex-grow: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -9499,7 +10908,13 @@ exports[`DataChart size 1`] = `
   grid-area: charts;
   width: 100%;
   max-width: none;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
   flex-grow: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -9520,13 +10935,13 @@ exports[`DataChart size 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
@@ -9769,62 +11184,113 @@ exports[`DataChart type 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: xAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 96px;
+  -ms-flex-preferred-size: 96px;
   flex-basis: 96px;
   overflow: visible;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
   align-items: flex-end;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-basis: 1px;
+  -ms-flex-preferred-size: 1px;
   flex-basis: 1px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   overflow: visible;
 }
 
 .c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   grid-area: yAxis;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 48px;
   padding-bottom: 48px;
@@ -9855,19 +11321,19 @@ exports[`DataChart type 1`] = `
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-start: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-inline-end: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c9 {
     padding-top: 24px;
     padding-bottom: 24px;

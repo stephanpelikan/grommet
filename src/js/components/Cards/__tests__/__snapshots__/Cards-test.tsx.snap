@@ -12,31 +12,53 @@ exports[`Cards children render 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.20);
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .c4 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
   width: 24px;
 }
@@ -45,30 +67,30 @@ exports[`Cards children render 1`] = `
   display: grid;
   box-sizing: border-box;
   margin: 0px;
-  grid-template-columns: repeat( auto-fill,minmax(min(192px, 100%), 1fr) );
+  grid-template-columns: repeat( auto-fill,minmax(min(192px,100%),1fr) );
   grid-gap: 24px 24px;
   padding: 0px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     width: 12px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     margin: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding: 0px;
   }
@@ -143,24 +165,36 @@ exports[`Cards data objects 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.20);
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
 }
 
@@ -168,24 +202,24 @@ exports[`Cards data objects 1`] = `
   display: grid;
   box-sizing: border-box;
   margin: 0px;
-  grid-template-columns: repeat( auto-fill,minmax(min(192px, 100%), 1fr) );
+  grid-template-columns: repeat( auto-fill,minmax(min(192px,100%),1fr) );
   grid-gap: 24px 24px;
   padding: 0px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     margin: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding: 0px;
   }
@@ -227,24 +261,36 @@ exports[`Cards data strings 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.20);
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
 }
 
@@ -252,24 +298,24 @@ exports[`Cards data strings 1`] = `
   display: grid;
   box-sizing: border-box;
   margin: 0px;
-  grid-template-columns: repeat( auto-fill,minmax(min(192px, 100%), 1fr) );
+  grid-template-columns: repeat( auto-fill,minmax(min(192px,100%),1fr) );
   grid-gap: 24px 24px;
   padding: 0px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     margin: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding: 0px;
   }
@@ -318,18 +364,18 @@ exports[`Cards empty 1`] = `
   display: grid;
   box-sizing: border-box;
   margin: 0px;
-  grid-template-columns: repeat( auto-fill,minmax(min(192px, 100%), 1fr) );
+  grid-template-columns: repeat( auto-fill,minmax(min(192px,100%),1fr) );
   grid-gap: 24px 24px;
   padding: 0px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     margin: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding: 0px;
   }
@@ -349,18 +395,18 @@ exports[`Cards empty no grommet wrapper 1`] = `
   display: grid;
   box-sizing: border-box;
   margin: 0px;
-  grid-template-columns: repeat( auto-fill,minmax(min(192px, 100%), 1fr) );
+  grid-template-columns: repeat( auto-fill,minmax(min(192px,100%),1fr) );
   grid-gap: 24px 24px;
   padding: 0px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c0 {
     margin: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c0 {
     padding: 0px;
   }
@@ -383,24 +429,36 @@ exports[`Cards margin object 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.20);
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
 }
 
@@ -409,25 +467,25 @@ exports[`Cards margin object 1`] = `
   box-sizing: border-box;
   margin-left: 48px;
   margin-right: 48px;
-  grid-template-columns: repeat( auto-fill,minmax(min(192px, 100%), 1fr) );
+  grid-template-columns: repeat( auto-fill,minmax(min(192px,100%),1fr) );
   grid-gap: 24px 24px;
   padding: 0px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     margin-left: 24px;
     margin-right: 24px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding: 0px;
   }
@@ -473,24 +531,36 @@ exports[`Cards margin string 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.20);
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
 }
 
@@ -498,24 +568,24 @@ exports[`Cards margin string 1`] = `
   display: grid;
   box-sizing: border-box;
   margin: 48px;
-  grid-template-columns: repeat( auto-fill,minmax(min(192px, 100%), 1fr) );
+  grid-template-columns: repeat( auto-fill,minmax(min(192px,100%),1fr) );
   grid-gap: 24px 24px;
   padding: 0px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     margin: 24px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding: 0px;
   }
@@ -561,24 +631,36 @@ exports[`Cards pad object 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.20);
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
 }
 
@@ -586,25 +668,25 @@ exports[`Cards pad object 1`] = `
   display: grid;
   box-sizing: border-box;
   margin: 0px;
-  grid-template-columns: repeat( auto-fill,minmax(min(192px, 100%), 1fr) );
+  grid-template-columns: repeat( auto-fill,minmax(min(192px,100%),1fr) );
   grid-gap: 24px 24px;
   padding-left: 48px;
   padding-right: 48px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     margin: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding-left: 24px;
     padding-right: 24px;
@@ -651,24 +733,36 @@ exports[`Cards pad string 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.20);
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
 }
 
@@ -676,24 +770,24 @@ exports[`Cards pad string 1`] = `
   display: grid;
   box-sizing: border-box;
   margin: 0px;
-  grid-template-columns: repeat( auto-fill,minmax(min(192px, 100%), 1fr) );
+  grid-template-columns: repeat( auto-fill,minmax(min(192px,100%),1fr) );
   grid-gap: 24px 24px;
   padding: 48px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     margin: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding: 24px;
   }
@@ -739,24 +833,36 @@ exports[`Cards renders a11yTitle and aria-label 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.20);
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
 }
 
@@ -764,24 +870,24 @@ exports[`Cards renders a11yTitle and aria-label 1`] = `
   display: grid;
   box-sizing: border-box;
   margin: 0px;
-  grid-template-columns: repeat( auto-fill,minmax(min(192px, 100%), 1fr) );
+  grid-template-columns: repeat( auto-fill,minmax(min(192px,100%),1fr) );
   grid-gap: 24px 24px;
   padding: 0px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     margin: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding: 0px;
   }

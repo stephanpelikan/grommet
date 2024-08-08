@@ -12,23 +12,36 @@ exports[`Spinner border renders 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   border: dotted 4px #7D4CDB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -36,17 +49,27 @@ exports[`Spinner border renders 1`] = `
   border-bottom: inset 12px #7D4CDB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -55,17 +78,27 @@ exports[`Spinner border renders 1`] = `
   border-bottom: solid 4px #7D4CDB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -75,17 +108,27 @@ exports[`Spinner border renders 1`] = `
   border-left: solid 4px #7D4CDB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -93,98 +136,105 @@ exports[`Spinner border renders 1`] = `
   border-bottom: solid 4px #7D4CDB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border: dotted 4px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     border-top: inset 6px #7D4CDB;
     border-bottom: inset 6px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border: solid 4px transparent;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border-top: solid 4px #7D4CDB;
     border-bottom: solid 4px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     border: solid 4px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     border-right: solid 4px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     border-top: solid 4px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     border-left: solid 4px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     border-top: solid 4px #7D4CDB;
     border-bottom: solid 4px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     padding: 6px;
   }
@@ -223,6 +273,9 @@ exports[`Spinner color renders 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -230,17 +283,27 @@ exports[`Spinner color renders 1`] = `
   border-top: solid 1px #6FFFB0;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -248,17 +311,27 @@ exports[`Spinner color renders 1`] = `
   border-top: solid 1px #00873D;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -266,17 +339,27 @@ exports[`Spinner color renders 1`] = `
   border-top: solid 1px #3D138D;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -284,17 +367,27 @@ exports[`Spinner color renders 1`] = `
   border-top: solid 1px #00739D;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -302,101 +395,108 @@ exports[`Spinner color renders 1`] = `
   border-top: solid 1px #A2423D;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border: solid 1px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border-top: solid 1px #6FFFB0;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     border: solid 1px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     border-top: solid 1px #00873D;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border: solid 1px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border-top: solid 1px #3D138D;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     border: solid 1px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     border-top: solid 1px #00739D;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     border: solid 1px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     border-top: solid 1px #A2423D;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     padding: 6px;
   }
@@ -425,6 +525,9 @@ exports[`Spinner color renders 1`] = `
 
 exports[`Spinner renders outside grommet wrapper 1`] = `
 .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -432,29 +535,36 @@ exports[`Spinner renders outside grommet wrapper 1`] = `
   border-top: solid 1px #7D4CDB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c0 {
     border: solid 1px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c0 {
     border-top: solid 1px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c0 {
     padding: 6px;
   }
@@ -477,6 +587,9 @@ exports[`Spinner round renders 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -484,16 +597,26 @@ exports[`Spinner round renders 1`] = `
   border-top: solid 1px #7D4CDB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -501,17 +624,27 @@ exports[`Spinner round renders 1`] = `
   border-top: solid 1px #7D4CDB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 12px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -519,17 +652,27 @@ exports[`Spinner round renders 1`] = `
   border-top: solid 1px #7D4CDB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 24px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -537,101 +680,108 @@ exports[`Spinner round renders 1`] = `
   border-top: solid 1px #7D4CDB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 48px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border: solid 1px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border-top: solid 1px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     border: solid 1px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     border-top: solid 1px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     border-radius: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border: solid 1px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border-top: solid 1px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border-radius: 12px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     border: solid 1px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     border-top: solid 1px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     border-radius: 24px;
   }
@@ -667,6 +817,9 @@ exports[`Spinner should have no accessibility violations 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -674,29 +827,36 @@ exports[`Spinner should have no accessibility violations 1`] = `
   border-top: solid 1px #7D4CDB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border: solid 1px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border-top: solid 1px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding: 6px;
   }
@@ -723,6 +883,9 @@ exports[`Spinner size renders 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -730,17 +893,27 @@ exports[`Spinner size renders 1`] = `
   border-top: solid 1px #7D4CDB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 18px;
   width: 18px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -748,17 +921,27 @@ exports[`Spinner size renders 1`] = `
   border-top: solid 2px #7D4CDB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -766,17 +949,27 @@ exports[`Spinner size renders 1`] = `
   border-top: solid 4px #7D4CDB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 48px;
   width: 48px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -784,17 +977,27 @@ exports[`Spinner size renders 1`] = `
   border-top: solid 12px #7D4CDB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 72px;
   width: 72px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -802,101 +1005,108 @@ exports[`Spinner size renders 1`] = `
   border-top: solid 24px #7D4CDB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 96px;
   width: 96px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border: solid 1px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border-top: solid 1px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     border: solid 2px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     border-top: solid 2px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border: solid 4px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border-top: solid 4px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     border: solid 6px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     border-top: solid 6px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     border: solid 12px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     border-top: solid 12px #7D4CDB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     padding: 6px;
   }
@@ -935,29 +1145,39 @@ exports[`Spinner spinner changes according to theme 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   background: red;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 30px;
   width: 30px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 48px;
   border-radius: 24px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gNoyFE 0.9s 0s infinite linear;
   animation: gNoyFE 0.9s 0s infinite linear;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding: 24px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border-radius: 12px;
   }
@@ -984,6 +1204,9 @@ exports[`Spinner spinner color renders over theme settings 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -993,41 +1216,48 @@ exports[`Spinner spinner color renders over theme settings 1`] = `
   border-left: solid 4px #1479FB;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gCPKsF 1s 0s infinite linear;
   animation: gCPKsF 1s 0s infinite linear;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border: solid 4px #33333310;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border-right: solid 4px #1479FB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border-top: solid 4px #1479FB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border-left: solid 4px #1479FB;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding: 6px;
   }
@@ -1045,6 +1275,8 @@ exports[`Spinner spinner color renders over theme settings 1`] = `
 exports[`Spinner spinner icon changes according to theme 1`] = `
 .c2 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 72px;
   height: 72px;
@@ -1086,24 +1318,40 @@ exports[`Spinner spinner icon changes according to theme 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 72px;
   width: 72px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   padding: 12px;
   border-radius: 100%;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  -webkit-animation: gNoyFE 0.9s 0s infinite linear;
   animation: gNoyFE 0.9s 0s infinite linear;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding: 6px;
   }

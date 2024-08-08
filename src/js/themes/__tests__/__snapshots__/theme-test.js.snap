@@ -3,21 +3,26 @@
 exports[`Grommet ThemeContext theme 1`] = `
 .c1 {
   box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   font-size: inherit;
   line-height: inherit;
   color: #000;
   font-weight: 600;
+  -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
 }
 
 .c1:hover {
+  -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
 .c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial,sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 18px;
   line-height: 24px;
   background-color: #ffffff;
@@ -43,6 +48,8 @@ exports[`Grommet ThemeContext theme 1`] = `
 exports[`Grommet custom theme 1`] = `
 .c4 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -75,6 +82,8 @@ exports[`Grommet custom theme 1`] = `
 
 .c7 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -107,6 +116,8 @@ exports[`Grommet custom theme 1`] = `
 
 .c10 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -138,25 +149,41 @@ exports[`Grommet custom theme 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
 }
 
 .c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -164,57 +191,78 @@ exports[`Grommet custom theme 1`] = `
   color: #f8f8f8;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c5 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
   align-self: stretch;
   width: 12px;
 }
 
 .c2 {
   box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   font-size: inherit;
   line-height: inherit;
   color: #7D4CDB;
   font-weight: 600;
+  -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
 }
 
 .c2:hover {
+  -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
 .c6 {
   box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   font-size: inherit;
   line-height: inherit;
   color: #cc6633;
   font-weight: 600;
+  -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
 }
 
 .c6:hover {
+  -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
 .c9 {
   box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   font-size: inherit;
   line-height: inherit;
   color: #6FFFB0;
   font-weight: 600;
+  -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
 }
 
 .c9:hover {
+  -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
@@ -231,7 +279,7 @@ exports[`Grommet custom theme 1`] = `
   padding: 11px;
   font-weight: bold;
   margin: 0;
-  border: 1px solid rgba(0, 0, 0, 0.33);
+  border: 1px solid rgba(0,0,0,0.33);
   border-radius: 4px;
 }
 
@@ -240,18 +288,18 @@ exports[`Grommet custom theme 1`] = `
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c12:focus >circle,
-.c12:focus >ellipse,
-.c12:focus >line,
-.c12:focus >path,
-.c12:focus >polygon,
-.c12:focus >polyline,
-.c12:focus >rect {
+.c12:focus > circle,
+.c12:focus > ellipse,
+.c12:focus > line,
+.c12:focus > path,
+.c12:focus > polygon,
+.c12:focus > polyline,
+.c12:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c12:focus ::-moz-focus-inner {
+.c12:focus::-moz-focus-inner {
   border: 0;
 }
 
@@ -267,7 +315,7 @@ exports[`Grommet custom theme 1`] = `
   color: #cc6633;
 }
 
-.c12 ::-webkit-search-decoration {
+.c12::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -434,6 +482,9 @@ exports[`Grommet custom theme 1`] = `
 
 exports[`Grommet dark theme 1`] = `
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -441,10 +492,15 @@ exports[`Grommet dark theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -452,10 +508,15 @@ exports[`Grommet dark theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -463,10 +524,15 @@ exports[`Grommet dark theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -474,10 +540,15 @@ exports[`Grommet dark theme 1`] = `
   color: #eeeeee;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -485,10 +556,15 @@ exports[`Grommet dark theme 1`] = `
   color: #eeeeee;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -496,10 +572,15 @@ exports[`Grommet dark theme 1`] = `
   color: #eeeeee;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -507,10 +588,15 @@ exports[`Grommet dark theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -518,10 +604,15 @@ exports[`Grommet dark theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -529,10 +620,15 @@ exports[`Grommet dark theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -540,10 +636,15 @@ exports[`Grommet dark theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -551,10 +652,15 @@ exports[`Grommet dark theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -562,10 +668,15 @@ exports[`Grommet dark theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -573,10 +684,15 @@ exports[`Grommet dark theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -584,10 +700,15 @@ exports[`Grommet dark theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -595,10 +716,15 @@ exports[`Grommet dark theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -606,10 +732,15 @@ exports[`Grommet dark theme 1`] = `
   color: #eeeeee;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -617,10 +748,15 @@ exports[`Grommet dark theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -628,10 +764,15 @@ exports[`Grommet dark theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c20 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -639,6 +780,8 @@ exports[`Grommet dark theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -893,6 +1036,9 @@ exports[`Grommet dark theme 1`] = `
 
 exports[`Grommet default theme 1`] = `
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -900,10 +1046,15 @@ exports[`Grommet default theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -911,10 +1062,15 @@ exports[`Grommet default theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -922,10 +1078,15 @@ exports[`Grommet default theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -933,10 +1094,15 @@ exports[`Grommet default theme 1`] = `
   color: #f8f8f8;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -944,10 +1110,15 @@ exports[`Grommet default theme 1`] = `
   color: #f8f8f8;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -955,10 +1126,15 @@ exports[`Grommet default theme 1`] = `
   color: #f8f8f8;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -966,10 +1142,15 @@ exports[`Grommet default theme 1`] = `
   color: #f8f8f8;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -977,10 +1158,15 @@ exports[`Grommet default theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -988,10 +1174,15 @@ exports[`Grommet default theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -999,10 +1190,15 @@ exports[`Grommet default theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1010,10 +1206,15 @@ exports[`Grommet default theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1021,10 +1222,15 @@ exports[`Grommet default theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1032,10 +1238,15 @@ exports[`Grommet default theme 1`] = `
   color: #f8f8f8;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1043,10 +1254,15 @@ exports[`Grommet default theme 1`] = `
   color: #f8f8f8;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1054,10 +1270,15 @@ exports[`Grommet default theme 1`] = `
   color: #f8f8f8;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1065,10 +1286,15 @@ exports[`Grommet default theme 1`] = `
   color: #f8f8f8;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1076,10 +1302,15 @@ exports[`Grommet default theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1087,10 +1318,15 @@ exports[`Grommet default theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c20 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1098,6 +1334,8 @@ exports[`Grommet default theme 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -1353,6 +1591,7 @@ exports[`Grommet grommet theme 1`] = `
   box-sizing: border-box;
   cursor: pointer;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   margin: 0;
   background: transparent;
@@ -1364,8 +1603,11 @@ exports[`Grommet grommet theme 1`] = `
   padding: 4px 22px;
   font-size: 18px;
   line-height: 24px;
+  -webkit-transition-property: color,background-color,border-color,box-shadow;
   transition-property: color,background-color,border-color,box-shadow;
+  -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
   font-weight: bold;
 }
@@ -1379,18 +1621,18 @@ exports[`Grommet grommet theme 1`] = `
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c1:focus >circle,
-.c1:focus >ellipse,
-.c1:focus >line,
-.c1:focus >path,
-.c1:focus >polygon,
-.c1:focus >polyline,
-.c1:focus >rect {
+.c1:focus > circle,
+.c1:focus > ellipse,
+.c1:focus > line,
+.c1:focus > path,
+.c1:focus > polygon,
+.c1:focus > polyline,
+.c1:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c1:focus ::-moz-focus-inner {
+.c1:focus::-moz-focus-inner {
   border: 0;
 }
 
@@ -1399,18 +1641,18 @@ exports[`Grommet grommet theme 1`] = `
   box-shadow: none;
 }
 
-.c1:focus:not(:focus-visible) >circle,
-.c1:focus:not(:focus-visible) >ellipse,
-.c1:focus:not(:focus-visible) >line,
-.c1:focus:not(:focus-visible) >path,
-.c1:focus:not(:focus-visible) >polygon,
-.c1:focus:not(:focus-visible) >polyline,
-.c1:focus:not(:focus-visible) >rect {
+.c1:focus:not(:focus-visible) > circle,
+.c1:focus:not(:focus-visible) > ellipse,
+.c1:focus:not(:focus-visible) > line,
+.c1:focus:not(:focus-visible) > path,
+.c1:focus:not(:focus-visible) > polygon,
+.c1:focus:not(:focus-visible) > polyline,
+.c1:focus:not(:focus-visible) > rect {
   outline: none;
   box-shadow: none;
 }
 
-.c1:focus:not(:focus-visible) ::-moz-focus-inner {
+.c1:focus:not(:focus-visible)::-moz-focus-inner {
   border: 0;
 }
 
@@ -1419,6 +1661,7 @@ exports[`Grommet grommet theme 1`] = `
   box-sizing: border-box;
   cursor: pointer;
   font: inherit;
+  -webkit-text-decoration: none;
   text-decoration: none;
   margin: 0;
   background: transparent;
@@ -1436,18 +1679,18 @@ exports[`Grommet grommet theme 1`] = `
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c2:focus >circle,
-.c2:focus >ellipse,
-.c2:focus >line,
-.c2:focus >path,
-.c2:focus >polygon,
-.c2:focus >polyline,
-.c2:focus >rect {
+.c2:focus > circle,
+.c2:focus > ellipse,
+.c2:focus > line,
+.c2:focus > path,
+.c2:focus > polygon,
+.c2:focus > polyline,
+.c2:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c2:focus ::-moz-focus-inner {
+.c2:focus::-moz-focus-inner {
   border: 0;
 }
 
@@ -1456,23 +1699,23 @@ exports[`Grommet grommet theme 1`] = `
   box-shadow: none;
 }
 
-.c2:focus:not(:focus-visible) >circle,
-.c2:focus:not(:focus-visible) >ellipse,
-.c2:focus:not(:focus-visible) >line,
-.c2:focus:not(:focus-visible) >path,
-.c2:focus:not(:focus-visible) >polygon,
-.c2:focus:not(:focus-visible) >polyline,
-.c2:focus:not(:focus-visible) >rect {
+.c2:focus:not(:focus-visible) > circle,
+.c2:focus:not(:focus-visible) > ellipse,
+.c2:focus:not(:focus-visible) > line,
+.c2:focus:not(:focus-visible) > path,
+.c2:focus:not(:focus-visible) > polygon,
+.c2:focus:not(:focus-visible) > polyline,
+.c2:focus:not(:focus-visible) > rect {
   outline: none;
   box-shadow: none;
 }
 
-.c2:focus:not(:focus-visible) ::-moz-focus-inner {
+.c2:focus:not(:focus-visible)::-moz-focus-inner {
   border: 0;
 }
 
 .c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial,sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 18px;
   line-height: 24px;
   background-color: #ffffff;
@@ -1504,6 +1747,9 @@ exports[`Grommet grommet theme 1`] = `
 
 exports[`Grommet hpe theme 1`] = `
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1511,10 +1757,15 @@ exports[`Grommet hpe theme 1`] = `
   color: #FFFFFF;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1522,10 +1773,15 @@ exports[`Grommet hpe theme 1`] = `
   color: #555555;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1533,10 +1789,15 @@ exports[`Grommet hpe theme 1`] = `
   color: #555555;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1544,10 +1805,15 @@ exports[`Grommet hpe theme 1`] = `
   color: #555555;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1555,10 +1821,15 @@ exports[`Grommet hpe theme 1`] = `
   color: #FFFFFF;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1566,10 +1837,15 @@ exports[`Grommet hpe theme 1`] = `
   color: #FFFFFF;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1577,10 +1853,15 @@ exports[`Grommet hpe theme 1`] = `
   color: #555555;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1588,10 +1869,15 @@ exports[`Grommet hpe theme 1`] = `
   color: #555555;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1599,10 +1885,15 @@ exports[`Grommet hpe theme 1`] = `
   color: #555555;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1610,10 +1901,15 @@ exports[`Grommet hpe theme 1`] = `
   color: #555555;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1621,10 +1917,15 @@ exports[`Grommet hpe theme 1`] = `
   color: #555555;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1632,10 +1933,15 @@ exports[`Grommet hpe theme 1`] = `
   color: #555555;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1643,6 +1949,8 @@ exports[`Grommet hpe theme 1`] = `
   color: #FFFFFF;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 

@@ -4,6 +4,8 @@ exports[`Notification custom theme 1`] = `
 <DocumentFragment>
   .c4 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -35,44 +37,68 @@ exports[`Notification custom theme 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   background: red;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   border-radius: 6px;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding: 24px;
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -109,25 +135,25 @@ exports[`Notification custom theme 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding: 12px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
@@ -188,6 +214,8 @@ exports[`Notification global 1`] = `
 <DocumentFragment>
   .c4 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -219,23 +247,35 @@ exports[`Notification global 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  background-color: rgba(204, 204, 204, 0.1);
+  background-color: rgba(204,204,204,0.1);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   border-radius: 0px;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 48px;
   padding-right: 48px;
@@ -244,22 +284,34 @@ exports[`Notification global 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -296,27 +348,27 @@ exports[`Notification global 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border-radius: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-left: 24px;
     padding-right: 24px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding-right: 6px;
   }
@@ -383,6 +435,8 @@ exports[`Notification multi actions 1`] = `
 <DocumentFragment>
   .c4 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -414,23 +468,35 @@ exports[`Notification multi actions 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  background-color: rgba(204, 204, 204, 0.1);
+  background-color: rgba(204,204,204,0.1);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   border-radius: 6px;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -439,22 +505,34 @@ exports[`Notification multi actions 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -472,17 +550,22 @@ exports[`Notification multi actions 1`] = `
 
 .c9 {
   box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   font-size: inherit;
   line-height: inherit;
   color: #7D4CDB;
   font-weight: 600;
+  -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   margin-right: 6px;
 }
 
 .c9:hover {
+  -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
@@ -507,27 +590,27 @@ exports[`Notification multi actions 1`] = `
   white-space: nowrap;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding-right: 6px;
   }
@@ -602,6 +685,8 @@ exports[`Notification multi actions 1`] = `
 exports[`Notification position bottom 1`] = `
 .c6 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -633,6 +718,9 @@ exports[`Notification position bottom 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -640,19 +728,28 @@ exports[`Notification position bottom 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 384px;
   border-radius: 6px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.20);
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -661,22 +758,34 @@ exports[`Notification position bottom 1`] = `
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -720,7 +829,12 @@ exports[`Notification position bottom 1`] = `
   -ms-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   min-height: 48px;
   outline: none;
@@ -732,7 +846,10 @@ exports[`Notification position bottom 1`] = `
   border-radius: 0;
   bottom: 24px;
   left: 50%;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
   transform: translate(-50%,0);
+  -webkit-animation: fdqiZe 0.2s ease-in-out forwards;
   animation: fdqiZe 0.2s ease-in-out forwards;
 }
 
@@ -754,27 +871,27 @@ exports[`Notification position bottom 1`] = `
   max-width: 432px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     padding-right: 6px;
   }
@@ -847,24 +964,24 @@ exports[`Notification position bottom 1`] = `
 
 exports[`Notification position bottom 2`] = `
 "@media only screen and (max-width: 768px) {
-  .bQTIQQ {
+  .dUFna-d {
     border-radius: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .jWOPYj {
+  .bMhGbS {
     padding-right: 6px;
   }
 }"
@@ -873,6 +990,8 @@ exports[`Notification position bottom 2`] = `
 exports[`Notification position bottom-left 1`] = `
 .c6 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -904,6 +1023,9 @@ exports[`Notification position bottom-left 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -911,19 +1033,28 @@ exports[`Notification position bottom-left 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 384px;
   border-radius: 6px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.20);
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -932,22 +1063,34 @@ exports[`Notification position bottom-left 1`] = `
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -991,7 +1134,12 @@ exports[`Notification position bottom-left 1`] = `
   -ms-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   min-height: 48px;
   outline: none;
@@ -1003,7 +1151,10 @@ exports[`Notification position bottom-left 1`] = `
   border-radius: 0;
   bottom: 24px;
   left: 24px;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
   transform: translateY(0);
+  -webkit-animation: cQwfQi 0.2s ease-in-out forwards;
   animation: cQwfQi 0.2s ease-in-out forwards;
 }
 
@@ -1025,27 +1176,27 @@ exports[`Notification position bottom-left 1`] = `
   max-width: 432px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     padding-right: 6px;
   }
@@ -1118,24 +1269,24 @@ exports[`Notification position bottom-left 1`] = `
 
 exports[`Notification position bottom-left 2`] = `
 "@media only screen and (max-width: 768px) {
-  .bQTIQQ {
+  .dUFna-d {
     border-radius: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .jWOPYj {
+  .bMhGbS {
     padding-right: 6px;
   }
 }"
@@ -1144,6 +1295,8 @@ exports[`Notification position bottom-left 2`] = `
 exports[`Notification position bottom-right 1`] = `
 .c6 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -1175,6 +1328,9 @@ exports[`Notification position bottom-right 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1182,19 +1338,28 @@ exports[`Notification position bottom-right 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 384px;
   border-radius: 6px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.20);
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -1203,22 +1368,34 @@ exports[`Notification position bottom-right 1`] = `
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -1262,7 +1439,12 @@ exports[`Notification position bottom-right 1`] = `
   -ms-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   min-height: 48px;
   outline: none;
@@ -1274,7 +1456,10 @@ exports[`Notification position bottom-right 1`] = `
   border-radius: 0;
   bottom: 24px;
   right: 24px;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
   transform: translateY(0);
+  -webkit-animation: cQwfQi 0.2s ease-in-out forwards;
   animation: cQwfQi 0.2s ease-in-out forwards;
 }
 
@@ -1296,27 +1481,27 @@ exports[`Notification position bottom-right 1`] = `
   max-width: 432px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     padding-right: 6px;
   }
@@ -1389,24 +1574,24 @@ exports[`Notification position bottom-right 1`] = `
 
 exports[`Notification position bottom-right 2`] = `
 "@media only screen and (max-width: 768px) {
-  .bQTIQQ {
+  .dUFna-d {
     border-radius: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .jWOPYj {
+  .bMhGbS {
     padding-right: 6px;
   }
 }"
@@ -1415,6 +1600,8 @@ exports[`Notification position bottom-right 2`] = `
 exports[`Notification position center 1`] = `
 .c6 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -1446,6 +1633,9 @@ exports[`Notification position center 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1453,19 +1643,28 @@ exports[`Notification position center 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 384px;
   border-radius: 6px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.20);
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -1474,22 +1673,34 @@ exports[`Notification position center 1`] = `
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -1533,7 +1744,12 @@ exports[`Notification position center 1`] = `
   -ms-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   min-height: 48px;
   outline: none;
@@ -1545,7 +1761,10 @@ exports[`Notification position center 1`] = `
   border-radius: 0;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
+  -webkit-animation: hWAzxx 0.2s ease-in-out forwards;
   animation: hWAzxx 0.2s ease-in-out forwards;
 }
 
@@ -1567,27 +1786,27 @@ exports[`Notification position center 1`] = `
   max-width: 432px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     padding-right: 6px;
   }
@@ -1660,24 +1879,24 @@ exports[`Notification position center 1`] = `
 
 exports[`Notification position center 2`] = `
 "@media only screen and (max-width: 768px) {
-  .bQTIQQ {
+  .dUFna-d {
     border-radius: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .jWOPYj {
+  .bMhGbS {
     padding-right: 6px;
   }
 }"
@@ -1686,6 +1905,8 @@ exports[`Notification position center 2`] = `
 exports[`Notification position end 1`] = `
 .c6 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -1717,6 +1938,9 @@ exports[`Notification position end 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1724,19 +1948,28 @@ exports[`Notification position end 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 384px;
   border-radius: 6px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.20);
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -1745,22 +1978,34 @@ exports[`Notification position end 1`] = `
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -1804,7 +2049,12 @@ exports[`Notification position end 1`] = `
   -ms-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   min-height: 48px;
   outline: none;
@@ -1816,7 +2066,10 @@ exports[`Notification position end 1`] = `
   border-radius: 0;
   inset-inline-end: 24px;
   top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
   transform: translate(0,-50%);
+  -webkit-animation: drjPPC 0.2s ease-in-out forwards;
   animation: drjPPC 0.2s ease-in-out forwards;
 }
 
@@ -1838,27 +2091,27 @@ exports[`Notification position end 1`] = `
   max-width: 432px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     padding-right: 6px;
   }
@@ -1931,24 +2184,24 @@ exports[`Notification position end 1`] = `
 
 exports[`Notification position end 2`] = `
 "@media only screen and (max-width: 768px) {
-  .bQTIQQ {
+  .dUFna-d {
     border-radius: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .jWOPYj {
+  .bMhGbS {
     padding-right: 6px;
   }
 }"
@@ -1957,6 +2210,8 @@ exports[`Notification position end 2`] = `
 exports[`Notification position left 1`] = `
 .c6 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -1988,6 +2243,9 @@ exports[`Notification position left 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1995,19 +2253,28 @@ exports[`Notification position left 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 384px;
   border-radius: 6px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.20);
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -2016,22 +2283,34 @@ exports[`Notification position left 1`] = `
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -2075,7 +2354,12 @@ exports[`Notification position left 1`] = `
   -ms-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   min-height: 48px;
   outline: none;
@@ -2087,7 +2371,10 @@ exports[`Notification position left 1`] = `
   border-radius: 0;
   left: 24px;
   top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
   transform: translate(0,-50%);
+  -webkit-animation: kPYden 0.2s ease-in-out forwards;
   animation: kPYden 0.2s ease-in-out forwards;
 }
 
@@ -2109,27 +2396,27 @@ exports[`Notification position left 1`] = `
   max-width: 432px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     padding-right: 6px;
   }
@@ -2202,24 +2489,24 @@ exports[`Notification position left 1`] = `
 
 exports[`Notification position left 2`] = `
 "@media only screen and (max-width: 768px) {
-  .bQTIQQ {
+  .dUFna-d {
     border-radius: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .jWOPYj {
+  .bMhGbS {
     padding-right: 6px;
   }
 }"
@@ -2228,6 +2515,8 @@ exports[`Notification position left 2`] = `
 exports[`Notification position right 1`] = `
 .c6 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -2259,6 +2548,9 @@ exports[`Notification position right 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2266,19 +2558,28 @@ exports[`Notification position right 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 384px;
   border-radius: 6px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.20);
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -2287,22 +2588,34 @@ exports[`Notification position right 1`] = `
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -2346,7 +2659,12 @@ exports[`Notification position right 1`] = `
   -ms-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   min-height: 48px;
   outline: none;
@@ -2358,7 +2676,10 @@ exports[`Notification position right 1`] = `
   border-radius: 0;
   right: 24px;
   top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
   transform: translate(0,-50%);
+  -webkit-animation: drjPPC 0.2s ease-in-out forwards;
   animation: drjPPC 0.2s ease-in-out forwards;
 }
 
@@ -2380,27 +2701,27 @@ exports[`Notification position right 1`] = `
   max-width: 432px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     padding-right: 6px;
   }
@@ -2473,24 +2794,24 @@ exports[`Notification position right 1`] = `
 
 exports[`Notification position right 2`] = `
 "@media only screen and (max-width: 768px) {
-  .bQTIQQ {
+  .dUFna-d {
     border-radius: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .jWOPYj {
+  .bMhGbS {
     padding-right: 6px;
   }
 }"
@@ -2499,6 +2820,8 @@ exports[`Notification position right 2`] = `
 exports[`Notification position start 1`] = `
 .c6 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -2530,6 +2853,9 @@ exports[`Notification position start 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2537,19 +2863,28 @@ exports[`Notification position start 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 384px;
   border-radius: 6px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.20);
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -2558,22 +2893,34 @@ exports[`Notification position start 1`] = `
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -2617,7 +2964,12 @@ exports[`Notification position start 1`] = `
   -ms-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   min-height: 48px;
   outline: none;
@@ -2629,7 +2981,10 @@ exports[`Notification position start 1`] = `
   border-radius: 0;
   inset-inline-start: 24px;
   top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
   transform: translate(0,-50%);
+  -webkit-animation: kPYden 0.2s ease-in-out forwards;
   animation: kPYden 0.2s ease-in-out forwards;
 }
 
@@ -2651,27 +3006,27 @@ exports[`Notification position start 1`] = `
   max-width: 432px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     padding-right: 6px;
   }
@@ -2744,24 +3099,24 @@ exports[`Notification position start 1`] = `
 
 exports[`Notification position start 2`] = `
 "@media only screen and (max-width: 768px) {
-  .bQTIQQ {
+  .dUFna-d {
     border-radius: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .jWOPYj {
+  .bMhGbS {
     padding-right: 6px;
   }
 }"
@@ -2770,6 +3125,8 @@ exports[`Notification position start 2`] = `
 exports[`Notification position top 1`] = `
 .c6 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -2801,6 +3158,9 @@ exports[`Notification position top 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2808,19 +3168,28 @@ exports[`Notification position top 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 384px;
   border-radius: 6px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.20);
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -2829,22 +3198,34 @@ exports[`Notification position top 1`] = `
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -2888,7 +3269,12 @@ exports[`Notification position top 1`] = `
   -ms-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   min-height: 48px;
   outline: none;
@@ -2900,7 +3286,10 @@ exports[`Notification position top 1`] = `
   border-radius: 0;
   top: 24px;
   left: 50%;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
   transform: translate(-50%,0);
+  -webkit-animation: hnDkLj 0.2s ease-in-out forwards;
   animation: hnDkLj 0.2s ease-in-out forwards;
 }
 
@@ -2922,27 +3311,27 @@ exports[`Notification position top 1`] = `
   max-width: 432px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     padding-right: 6px;
   }
@@ -3015,24 +3404,24 @@ exports[`Notification position top 1`] = `
 
 exports[`Notification position top 2`] = `
 "@media only screen and (max-width: 768px) {
-  .bQTIQQ {
+  .dUFna-d {
     border-radius: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .jWOPYj {
+  .bMhGbS {
     padding-right: 6px;
   }
 }"
@@ -3041,6 +3430,8 @@ exports[`Notification position top 2`] = `
 exports[`Notification position top-left 1`] = `
 .c6 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -3072,6 +3463,9 @@ exports[`Notification position top-left 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -3079,19 +3473,28 @@ exports[`Notification position top-left 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 384px;
   border-radius: 6px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.20);
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -3100,22 +3503,34 @@ exports[`Notification position top-left 1`] = `
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -3159,7 +3574,12 @@ exports[`Notification position top-left 1`] = `
   -ms-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   min-height: 48px;
   outline: none;
@@ -3171,7 +3591,10 @@ exports[`Notification position top-left 1`] = `
   border-radius: 0;
   top: 24px;
   left: 24px;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
   transform: translateY(0);
+  -webkit-animation: ffftsv 0.2s ease-in-out forwards;
   animation: ffftsv 0.2s ease-in-out forwards;
 }
 
@@ -3193,27 +3616,27 @@ exports[`Notification position top-left 1`] = `
   max-width: 432px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     padding-right: 6px;
   }
@@ -3286,24 +3709,24 @@ exports[`Notification position top-left 1`] = `
 
 exports[`Notification position top-left 2`] = `
 "@media only screen and (max-width: 768px) {
-  .bQTIQQ {
+  .dUFna-d {
     border-radius: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .jWOPYj {
+  .bMhGbS {
     padding-right: 6px;
   }
 }"
@@ -3312,6 +3735,8 @@ exports[`Notification position top-left 2`] = `
 exports[`Notification position top-right 1`] = `
 .c6 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -3343,6 +3768,9 @@ exports[`Notification position top-right 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -3350,19 +3778,28 @@ exports[`Notification position top-right 1`] = `
   color: #444444;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 384px;
   border-radius: 6px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.20);
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -3371,22 +3808,34 @@ exports[`Notification position top-right 1`] = `
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -3430,7 +3879,12 @@ exports[`Notification position top-right 1`] = `
   -ms-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   min-height: 48px;
   outline: none;
@@ -3442,7 +3896,10 @@ exports[`Notification position top-right 1`] = `
   border-radius: 0;
   top: 24px;
   right: 24px;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
   transform: translateY(0);
+  -webkit-animation: ffftsv 0.2s ease-in-out forwards;
   animation: ffftsv 0.2s ease-in-out forwards;
 }
 
@@ -3464,27 +3921,27 @@ exports[`Notification position top-right 1`] = `
   max-width: 432px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c4 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c5 {
     padding-right: 6px;
   }
@@ -3557,24 +4014,24 @@ exports[`Notification position top-right 1`] = `
 
 exports[`Notification position top-right 2`] = `
 "@media only screen and (max-width: 768px) {
-  .bQTIQQ {
+  .dUFna-d {
     border-radius: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .iynMWJ {
+  .bkJxIQ {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .jWOPYj {
+  .bMhGbS {
     padding-right: 6px;
   }
 }"
@@ -3584,6 +4041,8 @@ exports[`Notification should have no accessibility violations 1`] = `
 <DocumentFragment>
   .c4 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -3615,23 +4074,35 @@ exports[`Notification should have no accessibility violations 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  background-color: rgba(204, 204, 204, 0.1);
+  background-color: rgba(204,204,204,0.1);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   border-radius: 6px;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -3640,22 +4111,34 @@ exports[`Notification should have no accessibility violations 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -3675,27 +4158,27 @@ exports[`Notification should have no accessibility violations 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding-right: 6px;
   }
@@ -3756,19 +4239,19 @@ exports[`Notification should have no accessibility violations for toast 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
 
 }
 
@@ -3782,6 +4265,8 @@ exports[`Notification should render custom icon 1`] = `
 <DocumentFragment>
   .c4 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -3813,23 +4298,35 @@ exports[`Notification should render custom icon 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  background-color: rgba(204, 204, 204, 0.1);
+  background-color: rgba(204,204,204,0.1);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   border-radius: 6px;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -3838,22 +4335,34 @@ exports[`Notification should render custom icon 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -3886,27 +4395,27 @@ exports[`Notification should render custom icon 1`] = `
   max-width: 432px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding-right: 6px;
   }
@@ -3964,6 +4473,8 @@ exports[`Notification should render custom icon 1`] = `
 exports[`Notification should render custom template inside notification 1`] = `
 .c4 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -3995,23 +4506,35 @@ exports[`Notification should render custom template inside notification 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  background-color: rgba(204, 204, 204, 0.1);
+  background-color: rgba(204,204,204,0.1);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   border-radius: 6px;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -4020,22 +4543,34 @@ exports[`Notification should render custom template inside notification 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -4060,27 +4595,27 @@ exports[`Notification should render custom template inside notification 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding-right: 6px;
   }
@@ -4139,6 +4674,8 @@ exports[`Notification should render outside grommet wrapper 1`] = `
 <DocumentFragment>
   .c3 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -4170,23 +4707,35 @@ exports[`Notification should render outside grommet wrapper 1`] = `
 }
 
 .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  background-color: rgba(204, 204, 204, 0.1);
+  background-color: rgba(204,204,204,0.1);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   border-radius: 6px;
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -4195,22 +4744,34 @@ exports[`Notification should render outside grommet wrapper 1`] = `
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -4233,27 +4794,27 @@ exports[`Notification should render outside grommet wrapper 1`] = `
   max-width: 432px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c0 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-right: 6px;
   }
@@ -4311,6 +4872,8 @@ exports[`Notification should render the default icon if no icon is passed 1`] = 
 <DocumentFragment>
   .c4 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -4342,23 +4905,35 @@ exports[`Notification should render the default icon if no icon is passed 1`] = 
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  background-color: rgba(204, 204, 204, 0.1);
+  background-color: rgba(204,204,204,0.1);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   border-radius: 6px;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 12px;
   padding-right: 12px;
@@ -4367,22 +4942,34 @@ exports[`Notification should render the default icon if no icon is passed 1`] = 
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -4415,27 +5002,27 @@ exports[`Notification should render the default icon if no icon is passed 1`] = 
   max-width: 432px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border-radius: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-left: 6px;
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding-right: 6px;
   }
@@ -4495,6 +5082,8 @@ exports[`Notification status 1`] = `
 <DocumentFragment>
   .c4 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -4527,6 +5116,8 @@ exports[`Notification status 1`] = `
 
 .c11 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -4559,6 +5150,8 @@ exports[`Notification status 1`] = `
 
 .c13 {
   display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
@@ -4590,23 +5183,35 @@ exports[`Notification status 1`] = `
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  background-color: rgba(0, 199, 129, 0.1);
+  background-color: rgba(0,199,129,0.1);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   border-radius: 0px;
 }
 
 .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
   flex: 1 1;
   padding-left: 48px;
   padding-right: 48px;
@@ -4615,43 +5220,65 @@ exports[`Notification status 1`] = `
 }
 
 .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 12px;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  background-color: rgba(255, 170, 21, 0.1);
+  background-color: rgba(255,170,21,0.1);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   border-radius: 0px;
 }
 
 .c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
-  background-color: rgba(255, 64, 64, 0.1);
+  background-color: rgba(255,64,64,0.1);
   min-width: 0;
   min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   border-radius: 0px;
 }
@@ -4689,39 +5316,39 @@ exports[`Notification status 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c1 {
     border-radius: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-left: 24px;
     padding-right: 24px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c2 {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c3 {
     padding-right: 6px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c10 {
     border-radius: 0px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .c12 {
     border-radius: 0px;
   }
